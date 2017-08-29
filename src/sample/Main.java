@@ -12,9 +12,15 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("PokemonTeamCreator");
-        primaryStage.setScene(new Scene(root, 300, 440));
-        primaryStage.setMinWidth(300);
-        primaryStage.setMinHeight(400);
+        Scene scene = new Scene(root, 540 * 0.8, 960*0.8);
+        scene.getStylesheets().add("resources/Styles.css");
+        primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
+
+        primaryStage.setMinWidth(540 / 2);
+        primaryStage.setMinHeight(960 / 2);
+        primaryStage.setMaxWidth(540);
+        primaryStage.setMaxHeight(960);
         primaryStage.show();
     }
 

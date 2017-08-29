@@ -1,9 +1,15 @@
-/*.button{
-    -fx-text-fill: rgb(49, 89, 23);
-    -fx-border-color: rgb(49, 89, 23);
-    -fx-border-radius: 5;
-    -fx-padding: 3 6 6 6;
-}*/
+.main_button{
+    -fx-alignment: CENTER_RIGHT;
+    -fx-font-weight: bold;
+    -fx-font-size: 130%;
+
+    -fx-background-radius: 30;
+    -fx-background-insets: 4, 1;
+
+	-fx-background-size: auto 100%;
+	-fx-background-repeat: no-repeat;
+}
+
 .root {
 	-fx-background-image: url("pokemon_background.jpg");
 	-fx-background-size: cover;
@@ -11,19 +17,12 @@
 
 #buttonNORMAL {
     -fx-background-color:
-        linear-gradient(#f0ff35, #a9ff00),
-        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
-    -fx-background-radius: 30;
+        linear-gradient(#F48B20, #F3B81A),
+        radial-gradient(center 50% -40%, radius 200%, #F88E20 45%, #F3B81A 50%);
 
-    -fx-background-insets: 0, 1;
     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
     -fx-text-fill: #395306;
-    -fx-alignment: CENTER_RIGHT;
-    -fx-font-weight: bold;
-    -fx-font-size: 130%;
-    -fx-background-image: url("icon_normal_2.png");
-	-fx-background-size: auto 100%;
-	-fx-background-repeat: no-repeat;
+    -fx-background-image: url("icon_normal.png");
 }
 #buttonFIRE {
     -fx-background-color: linear-gradient(#ff5400, #be1d00);

@@ -5,7 +5,10 @@ public class TypeInteraction {
     private PokemonTypes typeThis;
     private PokemonTypes typeEnemy;
 
-    public TypeInteraction(StrengthType strengthType, PokemonTypes typeThis, PokemonTypes typeEnemy) {
+    private InteractionType interactionType;
+
+    public TypeInteraction(InteractionType interactionType, StrengthType strengthType, PokemonTypes typeThis, PokemonTypes typeEnemy) {
+        this.interactionType = interactionType;
         this.strengthType = strengthType;
         this.typeThis = typeThis;
         this.typeEnemy = typeEnemy;
@@ -26,5 +29,14 @@ public class TypeInteraction {
     @Override
     public String toString() {
         return typeThis + " -> " + typeEnemy + ": " + strengthType;
+    }
+
+    public InteractionType getInteractionType() {
+        return interactionType;
+    }
+
+    public enum InteractionType{
+        DEFENSE,
+        ATTACK
     }
 }

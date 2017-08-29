@@ -1,5 +1,8 @@
 package pokemon.util;
 
+import pokemon.StrengthType;
+import pokemon.TypeInteraction;
+
 public class MainParser {
 
     static String[] types = {
@@ -65,8 +68,7 @@ public class MainParser {
                 }
 
                 int str = Integer.parseInt(split[i].trim());
-                System.out.println(t + ".typeInteractions.add(new TypeInteraction(" + sTypes[str] + ", " + t + ", " + types[i-1] + "));");
-                // NORMAL.typeInteractions.add(new TypeInteraction(StrengthType.LESS_DAMAGE, NORMAL, ROCK));
+                System.out.println(t + ".typeInteractions.add(new TypeInteraction(TypeInteraction.InteractionType.ATTACK, " + sTypes[str] + ", " + t + ", " + types[i-1] + "));");
             }
             System.out.println("");
         }

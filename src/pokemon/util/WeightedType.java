@@ -1,11 +1,11 @@
 package pokemon.util;
 
-public class WeigethedType<R> {
+public class WeightedType<R> {
 
     private R object;
     private int weight;
 
-    public WeigethedType(R object, int weight) {
+    public WeightedType(R object, int weight) {
         this.object = object;
         this.weight = weight;
     }
@@ -18,11 +18,16 @@ public class WeigethedType<R> {
         return weight;
     }
 
-    public int incrWright(){
+    public int incrWeight(){
         return ++weight;
     }
 
-    public int decrWright(){
+    public int decrWeight(){
         return --weight;
+    }
+
+    @Override
+    public String toString() {
+        return "["+ weight + "]: " + object.toString();
     }
 }

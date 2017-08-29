@@ -1,7 +1,9 @@
 package pokemon;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public enum PokemonTypes {
     NORMAL,
@@ -25,6 +27,7 @@ public enum PokemonTypes {
 
     List<TypeInteraction> typeInteractionsAttack = new ArrayList<>();
 
+    // inits all the attack combos
     static {
         NORMAL.typeInteractionsAttack.add(new TypeInteraction(TypeInteraction.InteractionType.ATTACK, StrengthType.NEUTRAL, NORMAL, NORMAL));
         NORMAL.typeInteractionsAttack.add(new TypeInteraction(TypeInteraction.InteractionType.ATTACK, StrengthType.NEUTRAL, NORMAL, FIRE));
@@ -369,6 +372,13 @@ public enum PokemonTypes {
         FAIRY.typeInteractionsAttack.add(new TypeInteraction(TypeInteraction.InteractionType.ATTACK, StrengthType.NEUTRAL, FAIRY, FAIRY));
     }
 
+    static Map<String, PokemonTypes> nameEnumMap = new HashMap<>();
+    static {
+        for (PokemonTypes pokemonTypes : values()) {
+            nameEnumMap.put(pokemonTypes.name(), pokemonTypes);
+        }
+    }
+
     public TypeInteraction getAttack(PokemonTypes type){
         for (TypeInteraction typeInteraction : this.typeInteractionsAttack) {
             if (typeInteraction.getTypeEnemy() == type){
@@ -386,5 +396,9 @@ public enum PokemonTypes {
 
     public static PokemonTypes get(int i){
         return PokemonTypes.values()[i];
+    }
+
+    public static PokemonTypes getByName(String name){
+        return nameEnumMap.get(name);
     }
 }

@@ -1,6 +1,10 @@
 package pokemon.util;
 
+import java.util.Comparator;
+
 public class WeightedType<R> {
+    public static final Comparator<WeightedType<?>> COMPARATOR = Comparator.comparingInt(WeightedType::getWeight);
+
 
     private R object;
     private int weight;

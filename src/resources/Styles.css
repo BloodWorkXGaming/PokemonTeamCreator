@@ -2,12 +2,15 @@
     -fx-alignment: CENTER_RIGHT;
     -fx-font-weight: bold;
     -fx-font-size: 130%;
+    /*-fx-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 
     -fx-background-radius: 30;
-    -fx-background-insets: 4, 1;
+    -fx-background-insets: 2, 1;
 
 	-fx-background-size: auto 100%;
 	-fx-background-repeat: no-repeat;
+
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
 }
 
 .root {
@@ -15,21 +18,98 @@
 	-fx-background-size: cover;
 }
 
-#buttonNORMAL {
-    -fx-background-color:
-        linear-gradient(#F48B20, #F3B81A),
-        radial-gradient(center 50% -40%, radius 200%, #F88E20 45%, #F3B81A 50%);
+#title {
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+    -fx-font-size: 200%;
+    /* -fx-text-fill: #f4f4f4;*/
 
+    
     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
-    -fx-text-fill: #395306;
+}
+
+#buttonNORMAL {
+    /*-fx-background-color:
+        linear-gradient(#F48B20, #F3B81A),
+        radial-gradient(center 50% -40%, radius 200%, #6d6d6d 45%, #b4b4b4 50%);
+
+    -fx-background-insets: 2, 1;
+
+    -fx-text-fill: #f4f4f4; */
     -fx-background-image: url("icon_normal.png");
 }
+
 #buttonFIRE {
-    -fx-background-color: linear-gradient(#ff5400, #be1d00);
-    -fx-background-radius: 30;
-    -fx-background-insets: 0;
-    -fx-text-fill: white;
+    /*-fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-text-fill: white; */
+    -fx-background-image: url("icon_fire.png");
 }
+
+#buttonWATER {
+    -fx-background-image: url("icon_water.png");
+}
+
+#buttonELECTRIC {
+    -fx-background-image: url("icon_electric.png");
+}
+
+#buttonGRASS {
+    -fx-background-image: url("icon_grass.png");
+}
+
+#buttonICE {
+    -fx-background-image: url("icon_ice.png");
+}
+
+#buttonFIGHTING {
+    -fx-background-image: url("icon_fighting.png");
+}
+
+#buttonPOISON {
+    -fx-background-image: url("icon_poison.png");
+}
+
+#buttonGROUND {
+    -fx-background-image: url("icon_ground.png");
+}
+
+#buttonFLYING {
+    -fx-background-image: url("icon_flying.png");
+}
+
+#buttonPSYCHIC {
+    -fx-background-image: url("icon_psychic.png");
+}
+
+#buttonBUG {
+    -fx-background-image: url("icon_bug.png");
+}
+
+#buttonROCK {
+    -fx-background-image: url("icon_rock.png");
+}
+
+#buttonGHOST {
+    -fx-background-image: url("icon_ghost.png");
+}
+
+#buttonDRAGON {
+    -fx-background-image: url("icon_dragon.png");
+}
+
+#buttonDARK {
+    -fx-background-image: url("icon_dark.png");
+}
+
+#buttonSTEEL {
+    -fx-background-image: url("icon_steel.png");
+}
+
+#buttonFAIRY {
+    -fx-background-image: url("icon_fairy.png");
+}
+
+
 #bevel-grey {
     -fx-background-color:
         linear-gradient(#f2f2f2, #d6d6d6),

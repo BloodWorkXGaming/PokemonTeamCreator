@@ -43,70 +43,87 @@
     /*-fx-background-color: linear-gradient(#ff5400, #be1d00);
     -fx-text-fill: white; */
     -fx-background-image: url("icon_fire.png");
+    -fx-background-color: #ff431d
 }
 
 #buttonWATER {
     -fx-background-image: url("icon_water.png");
+    -fx-background-color: #309aff
 }
 
 #buttonELECTRIC {
     -fx-background-image: url("icon_electric.png");
+    -fx-background-color: #ffcd30
 }
 
 #buttonGRASS {
     -fx-background-image: url("icon_grass.png");
+    -fx-background-color: #78cd55
 }
 
 #buttonICE {
     -fx-background-image: url("icon_ice.png");
+    -fx-background-color: #78deff
 }
 
 #buttonFIGHTING {
     -fx-background-image: url("icon_fighting.png");
+    -fx-background-color: #bc5543
 }
 
 #buttonPOISON {
     -fx-background-image: url("icon_poison.png");
+    -fx-background-color: #ab559a
 }
 
 #buttonGROUND {
     -fx-background-image: url("icon_ground.png");
+    -fx-background-color: #debc55
 }
 
 #buttonFLYING {
     -fx-background-image: url("icon_flying.png");
+    -fx-background-color: #669aff
 }
 
 #buttonPSYCHIC {
     -fx-background-image: url("icon_psychic.png");
+    -fx-background-color: #ff559a
 }
 
 #buttonBUG {
     -fx-background-image: url("icon_bug.png");
+    -fx-background-color: #abbc1c
 }
 
 #buttonROCK {
     -fx-background-image: url("icon_rock.png");
+    -fx-background-color: #bcab66
 }
 
 #buttonGHOST {
     -fx-background-image: url("icon_ghost.png");
+    -fx-background-color: #6666bc
 }
 
 #buttonDRAGON {
     -fx-background-image: url("icon_dragon.png");
+    -fx-background-color: #7866ef
 }
 
 #buttonDARK {
     -fx-background-image: url("icon_dark.png");
+    -fx-background-color: #785543
 }
 
 #buttonSTEEL {
     -fx-background-image: url("icon_steel.png");
+    -fx-background-color: #ababbc
 }
 
 #buttonFAIRY {
     -fx-background-image: url("icon_fairy.png");
+    -fx-background-color: #ffabff
 }
 
 

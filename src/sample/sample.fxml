@@ -9,24 +9,24 @@
         <GridPane.margin>
             <Insets top="10" left="5" right="5"/>
         </GridPane.margin>
-        <Button GridPane.columnIndex="0" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="0" text="NORMAL [0]" onAction="#handleNormalButton" id="buttonNORMAL"/>
-        <Button GridPane.columnIndex="0" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="1" text="FIRE [0]" onAction="#handleNormalButton" id="buttonFIRE"/>
-        <Button GridPane.columnIndex="0" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="2" text="WATER [0]" onAction="#handleNormalButton" id="buttonWATER"/>
-        <Button GridPane.columnIndex="0" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="3" text="ELECTRIC [0]" onAction="#handleNormalButton" id="buttonELECTRIC"/>
-        <Button GridPane.columnIndex="0" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="4" text="GRASS [0]" onAction="#handleNormalButton" id="buttonGRASS"/>
-        <Button GridPane.columnIndex="0" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="5" text="ICE [0]" onAction="#handleNormalButton" id="buttonICE"/>
-        <Button GridPane.columnIndex="1" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="0" text="FIGHTING [0]" onAction="#handleNormalButton" id="buttonFIGHTING"/>
-        <Button GridPane.columnIndex="1" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="1" text="POISON [0]" onAction="#handleNormalButton" id="buttonPOISON"/>
-        <Button GridPane.columnIndex="1" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="2" text="GROUND [0]" onAction="#handleNormalButton" id="buttonGROUND"/>
-        <Button GridPane.columnIndex="1" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="3" text="FLYING [0]" onAction="#handleNormalButton" id="buttonFLYING"/>
-        <Button GridPane.columnIndex="1" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="4" text="PSYCHIC [0]" onAction="#handleNormalButton" id="buttonPSYCHIC"/>
-        <Button GridPane.columnIndex="1" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="5" text="BUG [0]" onAction="#handleNormalButton" id="buttonBUG"/>
-        <Button GridPane.columnIndex="2" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="0" text="ROCK [0]" onAction="#handleNormalButton" id="buttonROCK"/>
-        <Button GridPane.columnIndex="2" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="1" text="GHOST [0]" onAction="#handleNormalButton" id="buttonGHOST"/>
-        <Button GridPane.columnIndex="2" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="2" text="DRAGON [0]" onAction="#handleNormalButton" id="buttonDRAGON"/>
-        <Button GridPane.columnIndex="2" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="3" text="DARK [0]" onAction="#handleNormalButton" id="buttonDARK"/>
-        <Button GridPane.columnIndex="2" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="4" text="STEEL [0]" onAction="#handleNormalButton" id="buttonSTEEL"/>
-        <Button GridPane.columnIndex="2" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" GridPane.rowIndex="5" text="FAIRY [0]" onAction="#handleNormalButton" id="buttonFAIRY"/>
+        <Button GridPane.columnIndex="0" GridPane.rowIndex="0" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="BUG [0]" onAction="#handleNormalButton" id="buttonBUG"/>
+        <Button GridPane.columnIndex="1" GridPane.rowIndex="0" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="DARK [0]" onAction="#handleNormalButton" id="buttonDARK"/>
+        <Button GridPane.columnIndex="2" GridPane.rowIndex="0" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="DRAGON [0]" onAction="#handleNormalButton" id="buttonDRAGON"/>
+        <Button GridPane.columnIndex="0" GridPane.rowIndex="1" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="ELECTRIC [0]" onAction="#handleNormalButton" id="buttonELECTRIC"/>
+        <Button GridPane.columnIndex="1" GridPane.rowIndex="1" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="FAIRY [0]" onAction="#handleNormalButton" id="buttonFAIRY"/>
+        <Button GridPane.columnIndex="2" GridPane.rowIndex="1" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="FIGHTING [0]" onAction="#handleNormalButton" id="buttonFIGHTING"/>
+        <Button GridPane.columnIndex="0" GridPane.rowIndex="2" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="FIRE [0]" onAction="#handleNormalButton" id="buttonFIRE"/>
+        <Button GridPane.columnIndex="1" GridPane.rowIndex="2" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="FLYING [0]" onAction="#handleNormalButton" id="buttonFLYING"/>
+        <Button GridPane.columnIndex="2" GridPane.rowIndex="2" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="GHOST [0]" onAction="#handleNormalButton" id="buttonGHOST"/>
+        <Button GridPane.columnIndex="0" GridPane.rowIndex="3" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="GRASS [0]" onAction="#handleNormalButton" id="buttonGRASS"/>
+        <Button GridPane.columnIndex="1" GridPane.rowIndex="3" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="GROUND [0]" onAction="#handleNormalButton" id="buttonGROUND"/>
+        <Button GridPane.columnIndex="2" GridPane.rowIndex="3" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="ICE [0]" onAction="#handleNormalButton" id="buttonICE"/>
+        <Button GridPane.columnIndex="0" GridPane.rowIndex="4" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="NORMAL [0]" onAction="#handleNormalButton" id="buttonNORMAL"/>
+        <Button GridPane.columnIndex="1" GridPane.rowIndex="4" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="POISON [0]" onAction="#handleNormalButton" id="buttonPOISON"/>
+        <Button GridPane.columnIndex="2" GridPane.rowIndex="4" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="PSYCHIC [0]" onAction="#handleNormalButton" id="buttonPSYCHIC"/>
+        <Button GridPane.columnIndex="0" GridPane.rowIndex="5" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="ROCK [0]" onAction="#handleNormalButton" id="buttonROCK"/>
+        <Button GridPane.columnIndex="1" GridPane.rowIndex="5" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="STEEL [0]" onAction="#handleNormalButton" id="buttonSTEEL"/>
+        <Button GridPane.columnIndex="2" GridPane.rowIndex="5" prefHeight="32" styleClass="main_button" GridPane.hgrow="ALWAYS" maxWidth="Infinity" text="WATER [0]" onAction="#handleNormalButton" id="buttonWATER"/>
     </GridPane>
     <GridPane GridPane.rowIndex="2" hgap="10" alignment="CENTER" GridPane.hgrow="ALWAYS">
         <Button text="Calculate Attack" onAction="#handleCalcAttackButton" id="buttonCalcAttack"/>
